@@ -94,6 +94,11 @@
     .priceTagForSS{
         display: block;
     }
+
+    .aboutImg{
+        align-self: center;
+        width: 50%;
+    }
 }
 
 @media (max-width: 470px) {
