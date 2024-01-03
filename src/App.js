@@ -9,7 +9,7 @@ import Reviews from './components/Reviews';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="assignmentForInternship">
         <First/>
         <Navbar/>
         <Routes>
