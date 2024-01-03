@@ -14,8 +14,8 @@ function Slidebar() {
                         <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
 
                         <div className="container">
-                            <div className="carousel-caption text-dark font-weight-bold">
-                                <h4>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system."</h4>
+                            <div className="carousel-caption text-dark ">
+                                <h4 className="quoteText">"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system."</h4>
                                 <p>Name of the reviewer.<br></br>Designation of the reviewer</p>
                             </div>
                         </div>
@@ -24,8 +24,8 @@ function Slidebar() {
                         <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
 
                         <div className="container">
-                            <div className="carousel-caption text-dark font-weight-bold">
-                                <h4>Another example headline.</h4>
+                            <div className="carousel-caption text-dark">
+                                <h4 className="quoteText">Another example headline.</h4>
                                 <p>Name of the reviewer.<br></br>Designation of the reviewer</p>
                             </div>
                         </div>
@@ -34,8 +34,8 @@ function Slidebar() {
                         <svg className="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
 
                         <div className="container">
-                            <div className="carousel-caption text-dark font-weight-bold">
-                                <h4>Another example headline.</h4>
+                            <div className="carousel-caption text-dark">
+                                <h4 className="quoteText">Another example headline.</h4>
                                 <p>Name of the reviewer.<br></br>Designation of the reviewer</p>
                             </div>
                         </div>

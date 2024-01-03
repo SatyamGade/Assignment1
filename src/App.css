@@ -51,6 +51,14 @@
     width: 30%;
 }
 
+.priceTagForSS{
+    display: none;
+}
+
+.quoteText{
+    font-weight: bold;
+}
+
 @media (max-width: 991px) {
     .aboutInstructor {
         flex-direction: column;
@@ -69,10 +77,6 @@
     .about {
         width: 50%;
     }
-
-    #socials{
-        display: block;
-    }
 }
 
 
@@ -82,5 +86,22 @@
     .about {
         width: 100%;
     }
-    /* todo */
+
+    .priceTag {
+        display: none;
+    }
+
+    .priceTagForSS{
+        display: block;
+    }
+}
+
+@media (max-width: 470px) {
+    .quoteText{
+       font-size: medium;
+    }
+
+    #socials{
+        flex-direction: column;
+    }
 }

@@ -54,6 +54,23 @@ function About() {
           </div>
         </div>
 
+
+        {/* Card only for small screen*/}
+        <div className="card priceTagForSS my-3">
+          <div className="card-body">
+            <h5 className="card-title">Course Fee</h5>
+            <h1 style={{ fontStyle: 'italic' }}>₹5000</h1>
+            <p>What's included:</p>
+            <p><i className="fa-solid fa-film mx-1"></i> 5 on demand videos</p>
+            <p><i className="fa-solid fa-video mx-1"></i> 2 live stream sessions</p>
+            <p><i className="fa-regular fa-message mx-1"></i> Live Q&A sessions</p>
+            <p><i className="fa-brands fa-whatsapp mx-1"></i> An active whatsapp community</p>
+            <div className="text-center">
+              <Link to="/" className="btn btn-primary">Register Today</Link>
+            </div>
+          </div>
+        </div>
+
         <Slidebar />
       </div>
     </>
